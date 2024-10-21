@@ -2,12 +2,12 @@ import React from "react";
 import Note from "./Note";
 import '../App.css';
 
-const NotesList = () => {
+const NotesList = ({ notes }) => {
      return (
           <div class="notes-list">
-               <Note />
-               <Note />
-               <Note />
+               {notes.map((note) => (
+                    <Note />
+               ))}
           </div>
      )
 }
