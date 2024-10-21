@@ -3,7 +3,9 @@ import NotesList from "./components/NotesList";
 
 const App = () => {
      return (
+          <div className="app-container">
           <NotesList />
+          </div>
      )
 }
 
