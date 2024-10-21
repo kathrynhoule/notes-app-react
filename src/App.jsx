@@ -1,8 +1,9 @@
 import React from "react";
+import NotesList from "./components/NotesList";
 
 const App = () => {
      return (
-          <p>Hi</p>
+          <NotesList />
      )
 }
 
