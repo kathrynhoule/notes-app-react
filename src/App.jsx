@@ -1,6 +1,6 @@
 import React from "react";
 import NotesList from "./components/NotesList";
-import '../App.css';
+import './App.css';
 
 const App = () => {
      return (
